@@ -6,9 +6,9 @@ def main():
     temperatura = float(input("Ingrese la temperatura: "))
 
     if temperatura >= 18 and temperatura <= 25:
-        print("Tempartura aceptable")
+        print("Temperatura aceptable")
     else:
-        print("Termpartura fuera de rango")
+        print("Temperatura fuera de rango")
 
 if __name__=='__main__':
     main()
